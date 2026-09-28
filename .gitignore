@@ -1,0 +1,18 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Data (large / regenerated)
+data/chroma_db/
+data/raw/*.pdf
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
